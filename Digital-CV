@@ -10,26 +10,27 @@
            #Name_Header {
             font-size: 36px;
            }
-           .grid-container {
-            grid-template-columns: 1fr 3fr;
-            display: grid;
+           body {
+            background:linear-gradient(to right, rgb(137, 235, 252) 0% 27%, rgb(58, 132, 230) 30% 99%)
            }
-           #photo-area {
-            height:784px;
-            background-color: rgb(46, 167, 207);
-            
+           div {
+            height: auto;
+            width: 27%;
+            float:left;
            }
-           #introduction-area {
-            background-color:rgba(72, 209, 205, 0.527);
+           .div2 {
+            font-family:'Times New Roman', Times, serif;
+            width: 60%;
+            background-color:rgb(211, 20, 20);
+            padding-left:3%;
+           }
+           .div1 {
+            background-color:white;
            }
         </style>
     </head>
     <body>
-        <div class="grid-container">
-            <div id="photo-area" class="grid-item"><h1 id="Name_Header">Ezekiel Stephenson</h1></div>
-            <div id="introduction-area" class="grid-item">intro area</div>
-
-
-        </div>
+            <div class="div1"><h1 id="Name_Header">Ezekiel Stephenson</h1></div>
+            <div class="div2"><h1 id="Name_Header">Student at Burnside Highschool</h1></div>
     </body>
 </html>
