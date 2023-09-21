@@ -13,24 +13,30 @@
            body {
             background:linear-gradient(to right, rgb(137, 235, 252) 0% 27%, rgb(58, 132, 230) 30% 99%)
            }
-           div {
-            height: auto;
-            width: 27%;
-            float:left;
-           }
            .div2 {
             font-family:'Times New Roman', Times, serif;
             width: 60%;
             background-color:rgb(211, 20, 20);
             padding-left:3%;
+            float:left;
+            height:auto;
            }
            .div1 {
             background-color:white;
+            height:auto;
+            width:27%;
+            float:left;
            }
         </style>
     </head>
     <body>
-            <div class="div1"><h1 id="Name_Header">Ezekiel Stephenson</h1></div>
+            <div class="topnav">
+                <a class="active" href="#about_me">About me</a>
+                <a href="#experience">Experience</a>
+                <a href="#education_skills">Education and Skills</a>
+                <a href="#Contact_references">Contact Information and References</a>
+            </div>
+            <div class="div1"><h1 id="Name_Header">Ezekiel Stephenson</h1><img src="placeholder.png"alt="placeholder"></div>
             <div class="div2"><h1 id="Name_Header">Student at Burnside Highschool</h1></div>
     </body>
 </html>
