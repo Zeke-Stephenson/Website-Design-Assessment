@@ -30,10 +30,10 @@
             * {box-sizing: border-box}
             .tab {
             float: left;
-            border: 1px solid #ccc;
-            background-color: #f1f1f1;
+            border: 1px solid #5b5b67;
+            background-color: #f2f2f2;
             width: 23%;
-            height: 300px;
+            height: 20%;
             }
             .tab button {
             display: block;
@@ -46,12 +46,15 @@
             text-align: left;
             cursor: pointer;
             transition: 0.3s;
+            font-size:36px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
             }
             .tab button:hover {
-            background-color: #ddd;
+            background-color: #b7b7c4;
             }
             .tab button.active {
-            background-color: #ccc;
+            background-color: #5b5b67;
+            color:white;
             }
             .tabcontent {
             float: left;
@@ -59,14 +62,14 @@
             width: 50%;
             height: 300px;
             }
-            p {color:black;}
-            h3 {color:black;}
+            p {color:white;}
+            h3 {color:white;}
 
         </style>
     </head>
     <body>
         <div class="topnav">
-            <a href="about_me.html">About me</a>
+            <a href="about_me.html">About me</a>    
             <a class="active" href="experience.html">Experience</a>
             <a href="education_skills.html">Education and Skills</a>
             <a href="contact_references.html">Contact Information and References</a>
@@ -74,24 +77,24 @@
         <h1 style="font-family:'Times New Roman', Times, serif; height:auto; color:white; font-size:48px;">My Work Experience</h1>
 
         <div class="tab">
-        <button class="tablinks" onclick="openWork(event, 'Work-1')" id="defaultOpen">Work-1</button>
-        <button class="tablinks" onclick="openWork(event, 'Work-2')">Work-2</button>
-        <button class="tablinks" onclick="openWork(event, 'Work-3')">Work-3</button>
+        <button class="tablinks" onclick="openWork(event, 'Work-1')" id="defaultOpen"><img src="placeholder.png" alt="Work-1_placeholder" style="width:20%; height:20%; vertical-align:middle;">Work-1</button>
+        <button class="tablinks" onclick="openWork(event, 'Work-2')"><img src="placeholder.png" alt="Work-2_placeholder" style="width:20%; height:20%; vertical-align:middle;">Work-2</button>
+        <button class="tablinks" onclick="openWork(event, 'Work-3')"><img src="placeholder.png" alt="Work-3_placeholder" style="width:20%; height:20%; vertical-align:middle;">Work-3</button>
         </div>
 
         <div id="Work-1" class="tabcontent">
         <h3>Work-1</h3>
-        <p>Work-1</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
 
         <div id="Work-2" class="tabcontent">
         <h3>Work-2</h3>
-        <p>Work-2</p> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
         </div>
 
         <div id="Work-3" class="tabcontent">
         <h3>Work-3</h3>
-        <p>Work-3</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
 
         <script>
